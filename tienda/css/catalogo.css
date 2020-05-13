@@ -1,0 +1,18 @@
+*{
+    background-color:#000;
+}
+
+#sub{
+    background-color:rgb(249, 183, 52);
+    filter:opacity(85%);
+    border-radius:50px;
+    font-weight: bold;
+    color:black;
+}
+
+.content table{ 
+    background-color: rgb(249, 183, 52);
+    color:white;
+    width:1350px;
+    height:550px;
+}
