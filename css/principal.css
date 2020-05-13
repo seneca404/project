@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-align:center;
+	
+}
+
+body{
+	background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 31%, rgba(20,20,20,1) 60%, rgba(20,20,20,1) 74%, rgba(0,0,0,1) 92%, rgba(0,0,0,1) 93%);	
+}
+
+.header{
+	color: #fff;
+	padding: .5em .5rem;
+}
+.header h1 a{
+	font-family: 'Fira Sans', sans-serif;
+	text-decoration:none;
+	color:#fff;
+	font-size: 6rem;
+}
+
+
+.information{
+	color:#fff;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 3rem;
+	font-weight:bold;
+}
+

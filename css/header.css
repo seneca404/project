@@ -1,0 +1,65 @@
+#logo{
+    height:40px;
+    margin-bottom:50px;
+}
+
+header nav{
+    background:rgba(0, 0, 0, 0);
+    margin:auto;
+    width:40%;
+	max-width:5000px;
+}
+ header nav ul{
+    list-style:none;
+    overflow:hidden;
+ }
+
+ header nav ul li{
+     float:left;
+ }
+
+ header nav ul li a{
+    font-family: 'Fira Sans', sans-serif;
+    background-color:rgba(3, 3, 3, 0.39);
+    font-size:2rem;
+    font-weight: bold;
+     padding: 20px;
+     text-decoration:none;
+     display:block;
+ }
+
+ header nav ul li a:hover{
+     animation: bounce 2s infinite;
+ }
+
+ .menu-fixed{
+     margin-left:200px;
+     position:fixed;
+     z-index:1000;
+     top:0;
+     width:40%;
+     max-width:5000px;
+ }
+
+ .menu-fixed ul li a{
+     padding: 20px 20px;
+
+ }
+
+ @keyframes bounce{
+    0% {
+		transform: scale(1);
+	}
+
+	70% {
+		transform: scale(1.15);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+ }
+
+ .check{
+     height:22000px;
+ }
